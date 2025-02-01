@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order order-no="2700110826">
+    <order_id>1</order_id>
+    <customer_name>John Doe</customer_name>
+    <order_date>2025-01-15</order_date>
+    <total>250.00</total>
+    <items>
+      <item>
+        <name>Item 1</name>
+        <quantity>2</quantity>
+        <price>50.00</price>
+      </item>
+      <item>
+        <name>Item 2</name>
+        <quantity>1</quantity>
+        <price>150.00</price>
+      </item>
+      <customer>
+            <customer-name>Tshepo Mathelela</customer-name>
+            <customer-email>tmathelela9@gmail.com</customer-email>
+            <billing-address>
+                <first-name>Tshepo</first-name>
+                <last-name>Mathelela</last-name>
+                <address1>Bagwera Street</address1>
+                <address2>1540</address2>
+                <city>Middelburg</city>
+                <postal-code>1053</postal-code>
+                <state-code>MP</state-code>
+                <country-code>ZA</country-code>
+                <phone>0614562947</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="address3">Chromeville</custom-attribute>
+                    <custom-attribute attribute-id="deliveryInstruction">I live at the Peach corner house but if you’re having trouble finding me my number is 0614562947</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>     
+    </items>
+     <payments>
+            <payment>
+                <custom-method>
+                    <method-name>PAYRAILS_DROPIN</method-name>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="paymentProvider">payu</custom-attribute>
+                        <custom-attribute attribute-id="paymentType">card</custom-attribute>
+                        <custom-attribute attribute-id="pspReferenceId">601543419134149</custom-attribute>
+                    </custom-attributes>
+                </custom-method>
+                <amount>1199.00</amount>
+                <processor-id>PAYRAILS_DEFAULT</processor-id>
+                <transaction-id>279e19a5-b7ac-4abb-9007-768a02eb3fe7</transaction-id>
+                <custom-attributes>
+                    <custom-attribute attribute-id="fluentTransactionId">"8e437ec7-2d4b-46f9-8eb3-6ff8876cfc63"</custom-attribute>
+                </custom-attributes>
+            </payment>
+        </payments>
+  </order>
+  <order order-no="2700110827">
+    <order_id>2</order_id>
+    <customer_name>Jane Smith</customer_name>
+    <order_date>2025-01-16</order_date>
+    <total>75</total>
+    <status>
+        <delivery>Yes</delivery>
+    </status>
+    <items>
+      <item>
+        <name>Item A</name>
+        <quantity>3</quantity>
+        <price>25.00</price>
+      </item>
+      <customer>
+            <customer-name>Tshepo Mathelela</customer-name>
+            <customer-email>tmathelela9@gmail.com</customer-email>
+            <billing-address>
+                <first-name>Tshepo</first-name>
+                <last-name>Mathelela</last-name>
+                <address1>Bagwera Street</address1>
+                <address2>1540</address2>
+                <city>Middelburg</city>
+                <postal-code>1053</postal-code>
+                <state-code>MP</state-code>
+                <country-code>ZA</country-code>
+                <phone>0614562947</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="address3">Chromeville</custom-attribute>
+                    <custom-attribute attribute-id="deliveryInstruction">I live at the Peach corner house but if you’re having trouble finding me my number is 0614562947</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>
+    </items>
+    <payments>
+            <payment>
+                <custom-method>
+                    <method-name>PAYRAILS_DROPIN</method-name>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="paymentProvider">Pay Just Now</custom-attribute>
+                        <custom-attribute attribute-id="paymentType">card</custom-attribute>
+                        <custom-attribute attribute-id="pspReferenceId">601543419134149</custom-attribute>
+                    </custom-attributes>
+                </custom-method>
+                <amount>1199.00</amount>
+                <processor-id>PAYRAILS_DEFAULT</processor-id>
+                <transaction-id>279e19a5-b7ac-4abb-9007-768a02eb3fe7</transaction-id>
+                <custom-attributes>
+                    <custom-attribute attribute-id="fluentTransactionId">"8e437ec7-2d4b-46f9-8eb3-6ff8876cfc63"</custom-attribute>
+                </custom-attributes>
+            </payment>
+        </payments>
+  </order>
+  <order>
+    <order_id>3</order_id>
+    <customer_name>Mike Johnson</customer_name>
+    <order_date>2025-01-17</order_date>
+    <total>320.00</total>
+    <items>
+      <item>
+        <name>Suede XL</name>
+        <quantity>2</quantity>
+        <price>320.00</price>
+        <customer>
+            <customer-name>Tshepo Mathelela</customer-name>
+            <customer-email>tmathelela9@gmail.com</customer-email>
+            <billing-address>
+                <first-name>Tshepo</first-name>
+                <last-name>Mathelela</last-name>
+                <address1>Bagwera Street</address1>
+                <address2>1540</address2>
+                <city>Middelburg</city>
+                <postal-code>1053</postal-code>
+                <state-code>MP</state-code>
+                <country-code>ZA</country-code>
+                <phone>0614562947</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="address3">Chromeville</custom-attribute>
+                    <custom-attribute attribute-id="deliveryInstruction">I live at the Peach corner house but if you’re having trouble finding me my number is 0614562947</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>
+      </item>
+    </items>
+  </order>
+  <order>
+    <order_id>4</order_id>
+    <customer_name>Tshepo Mathelela</customer_name>
+    <order_date>1985-10-29</order_date>
+    <total>50.00</total>
+    <items>
+      <item>
+        <name>Item Z</name>
+        <quantity>1</quantity>
+        <price>50.00</price>
+      </item>
+      <customer>
+            <customer-name>Tshepo Mathelela</customer-name>
+            <customer-email>tmathelela9@gmail.com</customer-email>
+            <billing-address>
+                <first-name>Tshepo</first-name>
+                <last-name>Mathelela</last-name>
+                <address1>Bagwera Street</address1>
+                <address2>1540</address2>
+                <city>Middelburg</city>
+                <postal-code>1053</postal-code>
+                <state-code>MP</state-code>
+                <country-code>ZA</country-code>
+                <phone>0614562947</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="address3">Chromeville</custom-attribute>
+                    <custom-attribute attribute-id="deliveryInstruction">I live at the Peach corner house but if you’re having trouble finding me my number is 0614562947</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>
+      <item>
+        <name>Suede Xl Black</name>
+        <quantity>1</quantity>
+        <price>50.00</price>
+        <discount>
+            <discount_name>Extra30</discount_name>
+            <discount_amount>30%</discount_amount>
+        </discount>
+      </item>
+    </items>
+  </order>
+</orders>
